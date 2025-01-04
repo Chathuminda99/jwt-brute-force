@@ -4,6 +4,18 @@ import os
 import sys
 from jwt.exceptions import InvalidSignatureError, DecodeError
 
+# ASCII Art Header
+print("""
+      _       _     _                 
+     | |     (_)   | |            
+     | |      _  __| | ___ _ __   
+     | |     | |/ _` |/ _ \ '_ \  
+     | |____ | | (_| |  __/ | | |
+     \_____/ |_|\__,_|\___|_| |_|
+
+   Brute Force Your Way Through JWTs!  
+""")
+
 def parse_arguments():
     parser = argparse.ArgumentParser(description="JWT Brute Force Script")
     parser.add_argument("-t", "--token", type=str, required=True, help="The JWT token to brute force.")
@@ -71,3 +83,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

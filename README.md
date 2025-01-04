@@ -31,7 +31,7 @@ This script attempts to brute force the secret key used to sign a given JWT (JSO
 
 1. 📥 Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/jwt-brute-force.git
+   git clone https://github.com/chathuminda99/jwt-brute-force.git
    cd jwt-brute-force
    ```
 2. ⚙️ Install dependencies:
